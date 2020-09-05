@@ -3,6 +3,13 @@ import ReactDOM from "react-dom";
 
 import BankingForm from "./components/BankingForm";
 
+import supported_currencies from "../data/supported_currencies"
+import banking_field_definitions from "../data/banking_field_definitions"
+
+console.log(supported_currencies);
+console.log(banking_field_definitions);
+debugger;
+
 
 let global_countries = [
   {description: "Afghanistan", value: "AF"},

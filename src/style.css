@@ -1,0 +1,37 @@
+.field-set {
+  display: table;
+  width: 100%;
+}
+.field-set .field {
+  display: table-row;
+}
+
+.field .label {
+  width: 200px;
+}
+
+.field .label, 
+.field .input {
+  display: table-cell;
+  padding: 10px 5px;
+}
+
+.field .input input,
+.field .input select {
+  width: 250px;
+  height: 20px;
+}
+
+.field .input select:invalid{
+    color: gray;
+  }
+
+.field .label .required {
+  color: red;
+}
+
+.field .input .description {
+  font-size: x-small;
+  padding-top: 3px;
+  color: gray
+}
